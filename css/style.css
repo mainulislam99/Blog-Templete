@@ -80,7 +80,9 @@ body{
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.6);
 }
-.banner .banner-footer .date p a{}
+.banner .banner-footer .date p a{
+text-decoration: underline;
+}
 
 .banner .icon{
     top: 50%;
