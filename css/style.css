@@ -1,0 +1,254 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+
+.navbar{
+    padding: 0px;
+}
+.navbar-light .navbar-brand{
+    font-size: 24px;
+    background: #1a54e7;
+    height: 100%;
+    padding: 15px 25px;
+    color: #fff;
+    position: relative;
+}
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-light .navbar-brand:before{
+    content: '';
+    position: absolute;
+    background: #1a54e7;
+    height: 100%;
+    width: 550px;
+    right: 0;
+    top: 0;
+    left: -550px;
+}
+.navbar-light .nav-left .nav-link{
+    font-size: 18px;
+    color: #b2b2b2;
+}
+.navbar-light .nav-right .nav-link{
+    font-size: 18px;
+    color: #1a54e7;
+}
+.navbar-nav .btn-search{}
+.collapse .btn-search{}
+
+/*banner section*/
+.banner{
+    background: url(../images/banner-section.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+.banner .banner-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner img{}
+.banner h1{
+    color: #fff;
+    font-size: 35px;
+}
+
+.banner .banner-footer{
+    position: absolute;
+    display: block;
+    width: 60%;
+    margin: 0 20%;
+    bottom: 20px;
+}
+.banner .banner-footer .button{
+     float: left;
+     /* left: -88px; */
+}
+.banner .banner-footer .button button{
+   
+}
+.banner .banner-footer .date{
+    float: right;
+}
+.banner .banner-footer .date p{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.banner .banner-footer .date p a{}
+
+.banner .icon{
+    top: 50%;
+    left: 0px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    transform: translate(0, -50%);
+}
+.banner .icon i{
+    color: #000;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+.banner .icon button:last-child{
+   float: right; 
+}
+/*first blog post section*/
+.first-section{
+    background: #f6f6f6;
+    padding: 50px 0;
+}
+.blog{margin: 10px;}
+.blog-img{
+    position: relative;
+}
+.blog-img img{}
+.blog-img .trips{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: #fff;
+    padding: 6px 18px;
+    background: #d90445;
+    font-size: 18px;
+}
+.blog-img .tech{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: #fff;
+    padding: 6px 18px;
+    background: #000000;
+    font-size: 18px;
+}
+.blog-content{}
+.blog-content h3{
+    font-size: 24px;
+    color: #000;
+    padding: 16px 0;
+    line-height: 36px;
+}
+.blog-content p{
+    margin: 0;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+.blog-content p a{
+    color: #1a54e7;
+    text-decoration: underline;
+}
+
+/*second blog post*/
+.second-section{
+    padding: 50px 0;
+}
+.single-blog{
+    position: relative;
+}
+.single-blog img{}
+.single-blog .blog-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.single-blog .blog-content h1{
+    font-size: 48px;
+}
+.single-blog .blog-content p{
+    font-size: 18px;
+    color: #fff;
+}
+.single-blog .blog-detail{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    left: 0;
+}
+.single-blog .blog-detail .trips{
+    color: #fff;
+    padding: 6px 18px;
+    background: #d90445;
+    font-size: 18px;
+    display: inline-block;
+    float: left;
+}
+.single-blog .blog-detail p{
+    float: right;
+    color: #b0b0b0;
+    font-size: 14px;
+    padding-right: 30px;
+}
+.single-blog .blog-detail p a{
+    text-decoration: underline;
+}
+/*third section*/
+.third-section{
+}
+.third-section .nature{
+    background: #58b600;
+}
+.third-section .people{
+    background: #1a54e7;
+}
+.third-section .fashion{
+    background: #8200b2;
+}
+/*news letter*/
+.newsletter{
+    background: url(../images/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+.newsletter .col-12 h1{
+    color: #fff;
+    font-size: 48px;
+}
+.newsletter .col-12 p{
+    color: #8baeff;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.newsletter form{
+   margin: 0 auto;
+}
+.newsletter form input[type=text]{
+    border: none;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    padding-right: 150px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.newsletter form button[type=submit]{
+    width: 150px;
+    border: none;
+    border-radius: 30px !important;
+    height: 50px;
+    margin-left: -150px;
+}
+/*footer section start*/
+footer{
+    padding: 50px 0;
+}
+.footer-content{}
+.footer-content p{
+    color: #a7acbc;
+    font-size: 18px;
+    line-height: 35px;
+}
+.footer-content p a{
+    color: #a7acbc;
+    font-weight: 700;
+}
